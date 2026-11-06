@@ -1,0 +1,83 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isMe(uid) { return signedIn() && request.auth.uid == uid; }
+    function reqExists(from, to) {
+      return exists(/databases/$(database)/documents/friendRequests/$(from + '_' + to));
+    }
+    // Quan hệ bạn bè là đối xứng: B có trong users/A/friends ⇔ A có trong users/B/friends
+    function isFriendOf(uid) {
+      return signedIn() && exists(/databases/$(database)/documents/users/$(uid)/friends/$(request.auth.uid));
+    }
+
+    // ---------- Hồ sơ công khai ----------
+    match /users/{uid} {
+      // Người đã đăng nhập xem được tên/ảnh/bộ đếm (để tìm & kết bạn)
+      allow get: if signedIn();
+      // Tìm theo email: chỉ cho truy vấn nhỏ
+      allow list: if signedIn() && request.query.limit <= 5;
+      allow create: if isMe(uid)
+        && request.resource.data.uid == uid
+        && request.resource.data.emailLower == request.auth.token.email.lower();
+      allow update: if isMe(uid)
+        && request.resource.data.uid == uid
+        && request.resource.data.emailLower == resource.data.emailLower;
+      allow delete: if false;
+
+      // ---------- Từ vựng ----------
+      match /words/{wordId} {
+        allow read: if isMe(uid) || isFriendOf(uid);
+        allow create, update: if isMe(uid) && validWord(request.resource.data);
+        allow delete: if isMe(uid);
+      }
+
+      // ---------- Hoạt động theo ngày ----------
+      match /activity/{day} {
+        allow read: if isMe(uid) || isFriendOf(uid);
+        allow write: if isMe(uid) && request.resource.data.date == day;
+      }
+
+      // ---------- Danh sách bạn ----------
+      match /friends/{fid} {
+        allow read: if isMe(uid) || isMe(fid);
+        // Tạo khi chấp nhận lời mời (một trong hai bên có lời mời gửi tới người đang chấp nhận)
+        allow create: if signedIn()
+          && request.resource.data.uid == fid
+          && (
+            // Mình (uid) chấp nhận lời mời fid -> mình
+            (isMe(uid) && reqExists(fid, uid))
+            // Mình (fid) chấp nhận lời mời uid -> mình, ghi mình vào danh sách của uid
+            || (isMe(fid) && reqExists(uid, fid))
+          );
+        allow update: if false;
+        allow delete: if isMe(uid) || isMe(fid);
+      }
+    }
+
+    // ---------- Lời mời kết bạn: id = "{from}_{to}" ----------
+    match /friendRequests/{rid} {
+      allow read: if signedIn()
+        && (resource.data.from == request.auth.uid || resource.data.to == request.auth.uid);
+      allow create: if signedIn()
+        && request.resource.data.from == request.auth.uid
+        && request.resource.data.to != request.auth.uid
+        && rid == request.auth.uid + '_' + request.resource.data.to
+        && exists(/databases/$(database)/documents/users/$(request.resource.data.to));
+      allow update: if false;
+      allow delete: if signedIn()
+        && (resource.data.from == request.auth.uid || resource.data.to == request.auth.uid);
+    }
+
+    function validWord(d) {
+      return d.text is string && d.text.size() > 0 && d.text.size() <= 120
+        && d.meaning is string && d.meaning.size() > 0 && d.meaning.size() <= 1000
+        && d.status in ['learning', 'mastered']
+        && (!('example' in d) || (d.example is string && d.example.size() <= 1000))
+        && (!('note' in d) || (d.note is string && d.note.size() <= 3000))
+        && (!('tags' in d) || (d.tags is list && d.tags.size() <= 20));
+    }
+  }
+}

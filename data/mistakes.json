@@ -1,0 +1,65 @@
+[
+  {
+    "wrong": "im / i",
+    "right": "I'm / I",
+    "rule": "Đại từ I luôn viết hoa; I'm cần dấu nháy (I am)",
+    "category": "spelling",
+    "count": 2,
+    "first_seen": "2026-10-28",
+    "last_seen": "2026-10-28"
+  },
+  {
+    "wrong": "acquire = yêu cầu",
+    "right": "acquire = có được, đạt được (require = yêu cầu)",
+    "rule": "Nhầm acquire với require vì giống mặt chữ",
+    "category": "word-choice",
+    "count": 1,
+    "first_seen": "2026-10-28",
+    "last_seen": "2026-10-28"
+  },
+  {
+    "wrong": "all the step",
+    "right": "all the steps",
+    "rule": "Sau all the + danh từ đếm được phải ở số nhiều",
+    "category": "grammar",
+    "count": 1,
+    "first_seen": "2026-10-28",
+    "last_seen": "2026-10-28"
+  },
+  {
+    "wrong": "finallize (dùng như 'cuối cùng')",
+    "right": "finally / eventually",
+    "rule": "finalize (1 chữ l) là động từ 'hoàn thiện, chốt'; trạng từ 'cuối cùng' là finally/eventually",
+    "category": "word-choice",
+    "count": 1,
+    "first_seen": "2026-10-28",
+    "last_seen": "2026-10-28"
+  },
+  {
+    "wrong": "I can't understand, can you talk slowly?",
+    "right": "Sorry, I'm not sure I follow. Could you slow down a bit?",
+    "rule": "'I can't understand' nghe cộc/đổ lỗi; dùng 'I'm not sure I follow'. 'speak more slowly' / 'slow down' thay vì 'talk slowly'",
+    "category": "naturalness",
+    "count": 1,
+    "first_seen": "2026-10-28",
+    "last_seen": "2026-10-28"
+  },
+  {
+    "wrong": "i coming / i will there",
+    "right": "I'm coming / I'll be there",
+    "rule": "Thiếu động từ 'be': thì tiếp diễn cần am/is/are + V-ing; 'will' + be + nơi chốn",
+    "category": "grammar",
+    "count": 1,
+    "first_seen": "2026-10-28",
+    "last_seen": "2026-10-28"
+  },
+  {
+    "wrong": "5 minute",
+    "right": "5 minutes",
+    "rule": "Số > 1 thì danh từ đếm được thêm -s (cùng loại lỗi với 'all the step')",
+    "category": "grammar",
+    "count": 1,
+    "first_seen": "2026-10-28",
+    "last_seen": "2026-10-28"
+  }
+]

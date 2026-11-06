@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+web/dist/
+web/.env
+web/.env.local
+web/.firebase/
+*-debug.log
+.claude/settings.local.json
+__pycache__/

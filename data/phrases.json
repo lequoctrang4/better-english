@@ -1,0 +1,202 @@
+[
+  {
+    "text": "Could you walk me through it?",
+    "meaning": "Bạn có thể giải thích từng bước cho tôi không?",
+    "example": "I don't get the new process. Could you walk me through it?",
+    "example_vi": "",
+    "collocations": [],
+    "note": "Lịch sự, dùng khi cần ai đó hướng dẫn chi tiết",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": "2026-10-28",
+    "reviews": 1,
+    "lapses": 0,
+    "box": 1,
+    "status": "learning",
+    "next_review": "2026-10-29"
+  },
+  {
+    "text": "I'll get back to you on that.",
+    "meaning": "Tôi sẽ phản hồi bạn về việc đó sau.",
+    "example": "I'm not sure about the price. I'll get back to you on that.",
+    "example_vi": "",
+    "collocations": [],
+    "note": "Khi chưa có câu trả lời ngay",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": "2026-10-28",
+    "reviews": 1,
+    "lapses": 0,
+    "box": 1,
+    "status": "learning",
+    "next_review": "2026-10-29"
+  },
+  {
+    "text": "I'm not sure I follow.",
+    "meaning": "Tôi chưa theo kịp ý bạn.",
+    "example": "Sorry, I'm not sure I follow. Can you say that again?",
+    "example_vi": "",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": "2026-10-28",
+    "reviews": 1,
+    "lapses": 0,
+    "box": 1,
+    "status": "learning",
+    "next_review": "2026-10-29"
+  },
+  {
+    "text": "I'm running a bit late.",
+    "meaning": "Tôi đến trễ một chút.",
+    "example": "Sorry, I'm running a bit late. I'll be there in 10 minutes.",
+    "example_vi": "",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": "2026-10-28",
+    "reviews": 1,
+    "lapses": 1,
+    "box": 0,
+    "status": "learning",
+    "next_review": "2026-10-29"
+  },
+  {
+    "text": "It's up to you.",
+    "meaning": "Tùy bạn.",
+    "example": "Pizza or noodles? It's up to you.",
+    "example_vi": "",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "learning",
+    "next_review": "2026-10-28"
+  },
+  {
+    "text": "Just to make sure I understand, ...",
+    "meaning": "Để chắc là tôi hiểu đúng, ...",
+    "example": "Just to make sure I understand, you need it by Friday?",
+    "example_vi": "",
+    "collocations": [],
+    "note": "Xác nhận lại thông tin, rất hay dùng khi họp",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "learning",
+    "next_review": "2026-10-28"
+  },
+  {
+    "text": "Let me double-check.",
+    "meaning": "Để tôi kiểm tra lại.",
+    "example": "Let me double-check the numbers before I send it.",
+    "example_vi": "",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "learning",
+    "next_review": "2026-10-28"
+  },
+  {
+    "text": "Sounds good to me.",
+    "meaning": "Với tôi thì ổn.",
+    "example": "Meeting at 3 pm? Sounds good to me.",
+    "example_vi": "",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "learning",
+    "next_review": "2026-10-28"
+  },
+  {
+    "text": "That makes sense.",
+    "meaning": "Hợp lý / Tôi hiểu rồi.",
+    "example": "Oh, that makes sense now. Thanks!",
+    "example_vi": "",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "learning",
+    "next_review": "2026-10-28"
+  },
+  {
+    "text": "What do you mean by ...?",
+    "meaning": "Ý bạn là gì khi nói ...?",
+    "example": "What do you mean by 'flexible hours'?",
+    "example_vi": "",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "work",
+      "daily"
+    ],
+    "source": "starter",
+    "added": "2026-10-28",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "learning",
+    "next_review": "2026-10-28"
+  }
+]

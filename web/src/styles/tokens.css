@@ -1,0 +1,281 @@
+/*
+ * Design tokens. Mỗi theme chỉ đổi giá trị token, không đổi CSS component.
+ * Theme được chọn qua <html data-theme="...">: forest (mặc định), pink, mint, sky.
+ */
+:root,
+[data-theme='forest'] {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --bg: #111312;
+  --sidebar: #151714;
+  --panel: #181b18;
+  --panel-2: #1d211c;
+  --panel-3: #23281f;
+  --hover: #1b1e1a;
+  --line: #2b302a;
+  --line-strong: #42493b;
+  --card-line: #333c2d;
+  --stage-line: #43513d;
+  --hover-line: #657251;
+
+  /* Text */
+  --text: #f1f3ed;
+  --text-soft: #d1d6cd;
+  --nav-text: #a1a79b;
+  --crumb: #858c81;
+  --muted: #90968e;
+  --muted-2: #737d71;
+  --placeholder: #6d756b;
+  --kicker: #96aa7b;
+
+  /* Accent */
+  --accent: #d6eea5;
+  --accent-strong: #c6dfa3;
+  --accent-btn: #d6e9ae;
+  --accent-btn-hover: #e2f2c1;
+  --on-accent: #242b19;
+  --accent-soft: #2c3423;
+  --accent-soft-hover: #343e29;
+  --accent-softer: #242b19;
+  --accent-ink: #d6eea5;
+  --focus-ring: rgba(214, 238, 165, 0.12);
+
+  /* Status */
+  --success: #a8d68a;
+  --success-soft: rgba(146, 180, 115, 0.16);
+  --danger: #f0a493;
+  --danger-soft: rgba(224, 120, 98, 0.14);
+  --danger-soft-hover: rgba(224, 120, 98, 0.22);
+  --warn: #f2cf7e;
+  --warn-soft: rgba(242, 207, 126, 0.14);
+
+  /* Decorative */
+  --grad-card: linear-gradient(140deg, #23291f, #1b201a);
+  --grad-stage: radial-gradient(at 70% 80%, rgba(101, 114, 81, 0.4), transparent 60%),
+    linear-gradient(125deg, #202b23, #3c4936 80%);
+  --stage-title: #ecf0dc;
+  --glass: rgba(17, 19, 18, 0.45);
+  --glass-line: rgba(178, 197, 155, 0.18);
+  --pill-bg: rgba(27, 39, 29, 0.6);
+  --pill-line: rgba(178, 197, 155, 0.25);
+  --deck-card: linear-gradient(150deg, #2a3324, #1b211a);
+  --deck-line: rgba(178, 197, 155, 0.22);
+  --overlay: rgba(5, 7, 5, 0.72);
+  --bottom-nav-bg: rgba(21, 23, 20, 0.96);
+  --shadow: 0 18px 40px -20px rgba(0, 0, 0, 0.6);
+  --shadow-deck: 0 30px 60px -20px rgba(0, 0, 0, 0.55);
+
+  /* Heatmap */
+  --heat-0: #23281f;
+  --heat-1: #3b4a2c;
+  --heat-2: #5f7a40;
+  --heat-3: #94b86a;
+  --heat-4: #d6eea5;
+
+  /* Shape & type (chung mọi theme) */
+  --r-xs: 7px;
+  --r-sm: 9px;
+  --r: 13px;
+  --r-lg: 18px;
+  --r-pill: 999px;
+  --font-body: 'Be Vietnam Pro', 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-head: 'Manrope', 'Be Vietnam Pro', system-ui, sans-serif;
+  --sidebar-w: 236px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* ---------- Hồng nhạt ---------- */
+[data-theme='pink'] {
+  color-scheme: light;
+  --bg: #fff6f8;
+  --sidebar: #fff0f4;
+  --panel: #ffffff;
+  --panel-2: #fff4f7;
+  --panel-3: #fde6ee;
+  --hover: #fffafc;
+  --line: #f5dde5;
+  --line-strong: #ebc7d3;
+  --card-line: #f1d3dd;
+  --stage-line: #f3c9d7;
+  --hover-line: #eeb3c6;
+
+  --text: #3d2630;
+  --text-soft: #5e4350;
+  --nav-text: #8f6f7d;
+  --crumb: #a08592;
+  --muted: #9b7f8c;
+  --muted-2: #b399a5;
+  --placeholder: #c0a6b2;
+  --kicker: #c06a8b;
+
+  --accent: #f6a5bf;
+  --accent-strong: #f08fae;
+  --accent-btn: #f6a5bf;
+  --accent-btn-hover: #f292b1;
+  --on-accent: #4a1730;
+  --accent-soft: #fde3ec;
+  --accent-soft-hover: #fbd3e1;
+  --accent-softer: #fff0f5;
+  --accent-ink: #c43e6c;
+  --focus-ring: rgba(240, 124, 160, 0.2);
+
+  --success: #2f9a5f;
+  --success-soft: rgba(47, 154, 95, 0.12);
+  --danger: #d4473a;
+  --danger-soft: rgba(212, 71, 58, 0.1);
+  --danger-soft-hover: rgba(212, 71, 58, 0.16);
+  --warn: #a8740c;
+  --warn-soft: rgba(214, 160, 40, 0.15);
+
+  --grad-card: linear-gradient(140deg, #fffafc, #fff1f5);
+  --grad-stage: radial-gradient(at 75% 85%, rgba(255, 255, 255, 0.75), transparent 60%),
+    linear-gradient(125deg, #ffe6ee, #fbcfde 85%);
+  --stage-title: #3d2630;
+  --glass: rgba(255, 255, 255, 0.62);
+  --glass-line: rgba(232, 98, 141, 0.18);
+  --pill-bg: rgba(255, 255, 255, 0.7);
+  --pill-line: rgba(232, 98, 141, 0.25);
+  --deck-card: linear-gradient(150deg, #ffffff, #ffeef3);
+  --deck-line: rgba(232, 98, 141, 0.2);
+  --overlay: rgba(60, 30, 42, 0.35);
+  --bottom-nav-bg: rgba(255, 240, 244, 0.95);
+  --shadow: 0 18px 40px -22px rgba(120, 40, 70, 0.28);
+  --shadow-deck: 0 24px 48px -20px rgba(120, 40, 70, 0.3);
+
+  --heat-0: #fbe9ef;
+  --heat-1: #f8cbd9;
+  --heat-2: #f3a3bd;
+  --heat-3: #ec7aa0;
+  --heat-4: #d94f7e;
+}
+
+/* ---------- Xanh mint ---------- */
+[data-theme='mint'] {
+  color-scheme: light;
+  --bg: #f2fbf7;
+  --sidebar: #e9f7f1;
+  --panel: #ffffff;
+  --panel-2: #f1faf6;
+  --panel-3: #dcf3e9;
+  --hover: #f8fdfb;
+  --line: #d7ede3;
+  --line-strong: #b9dccd;
+  --card-line: #cfe9dd;
+  --stage-line: #b6e2cf;
+  --hover-line: #8fd9bd;
+
+  --text: #1e3a32;
+  --text-soft: #3c5a51;
+  --nav-text: #5f7f75;
+  --crumb: #7c978e;
+  --muted: #6f8c83;
+  --muted-2: #93aaa2;
+  --placeholder: #9fb6ae;
+  --kicker: #2f9373;
+
+  --accent: #6fdcb6;
+  --accent-strong: #4fd1a5;
+  --accent-btn: #6fdcb6;
+  --accent-btn-hover: #58d4aa;
+  --on-accent: #0d3b2e;
+  --accent-soft: #d5f5e8;
+  --accent-soft-hover: #c2efdc;
+  --accent-softer: #e8faf2;
+  --accent-ink: #137a5a;
+  --focus-ring: rgba(79, 209, 165, 0.24);
+
+  --success: #1f9a5c;
+  --success-soft: rgba(31, 154, 92, 0.12);
+  --danger: #d0473b;
+  --danger-soft: rgba(208, 71, 59, 0.1);
+  --danger-soft-hover: rgba(208, 71, 59, 0.16);
+  --warn: #a5740b;
+  --warn-soft: rgba(214, 160, 40, 0.15);
+
+  --grad-card: linear-gradient(140deg, #ffffff, #effaf5);
+  --grad-stage: radial-gradient(at 75% 85%, rgba(255, 255, 255, 0.75), transparent 60%),
+    linear-gradient(125deg, #e2f8ef, #bdeedb 85%);
+  --stage-title: #1e3a32;
+  --glass: rgba(255, 255, 255, 0.62);
+  --glass-line: rgba(52, 191, 145, 0.22);
+  --pill-bg: rgba(255, 255, 255, 0.7);
+  --pill-line: rgba(52, 191, 145, 0.3);
+  --deck-card: linear-gradient(150deg, #ffffff, #eefaf5);
+  --deck-line: rgba(52, 191, 145, 0.25);
+  --overlay: rgba(20, 50, 40, 0.35);
+  --bottom-nav-bg: rgba(233, 247, 241, 0.95);
+  --shadow: 0 18px 40px -22px rgba(20, 80, 60, 0.25);
+  --shadow-deck: 0 24px 48px -20px rgba(20, 80, 60, 0.28);
+
+  --heat-0: #e3f5ed;
+  --heat-1: #b6e8d3;
+  --heat-2: #7fd6b4;
+  --heat-3: #40bf92;
+  --heat-4: #1f9a71;
+}
+
+/* ---------- Blue sky ---------- */
+[data-theme='sky'] {
+  color-scheme: light;
+  --bg: #f3f8ff;
+  --sidebar: #eaf3fe;
+  --panel: #ffffff;
+  --panel-2: #f0f6fe;
+  --panel-3: #dbeafc;
+  --hover: #f8fbff;
+  --line: #d9e6f6;
+  --line-strong: #bed3ee;
+  --card-line: #d2e2f5;
+  --stage-line: #b9d5f3;
+  --hover-line: #92c3f1;
+
+  --text: #1b2c42;
+  --text-soft: #3a4e68;
+  --nav-text: #5f7590;
+  --crumb: #7a8ea8;
+  --muted: #6d819b;
+  --muted-2: #92a4ba;
+  --placeholder: #9badc3;
+  --kicker: #3a7fc4;
+
+  --accent: #8cc6f7;
+  --accent-strong: #6cb5f5;
+  --accent-btn: #8cc6f7;
+  --accent-btn-hover: #74baf5;
+  --on-accent: #0f2f52;
+  --accent-soft: #dcecfd;
+  --accent-soft-hover: #c9e1fc;
+  --accent-softer: #ebf4fe;
+  --accent-ink: #1d68b5;
+  --focus-ring: rgba(90, 174, 245, 0.22);
+
+  --success: #1f9a5c;
+  --success-soft: rgba(31, 154, 92, 0.12);
+  --danger: #d0473b;
+  --danger-soft: rgba(208, 71, 59, 0.1);
+  --danger-soft-hover: rgba(208, 71, 59, 0.16);
+  --warn: #a5740b;
+  --warn-soft: rgba(214, 160, 40, 0.15);
+
+  --grad-card: linear-gradient(140deg, #ffffff, #eff6fe);
+  --grad-stage: radial-gradient(at 75% 85%, rgba(255, 255, 255, 0.75), transparent 60%),
+    linear-gradient(125deg, #e4f1ff, #c2dffb 85%);
+  --stage-title: #1b2c42;
+  --glass: rgba(255, 255, 255, 0.62);
+  --glass-line: rgba(60, 155, 239, 0.2);
+  --pill-bg: rgba(255, 255, 255, 0.7);
+  --pill-line: rgba(60, 155, 239, 0.28);
+  --deck-card: linear-gradient(150deg, #ffffff, #eef5fe);
+  --deck-line: rgba(60, 155, 239, 0.22);
+  --overlay: rgba(20, 35, 60, 0.35);
+  --bottom-nav-bg: rgba(234, 243, 254, 0.95);
+  --shadow: 0 18px 40px -22px rgba(30, 70, 120, 0.25);
+  --shadow-deck: 0 24px 48px -20px rgba(30, 70, 120, 0.28);
+
+  --heat-0: #e3eefb;
+  --heat-1: #bcd8f6;
+  --heat-2: #8cbdf0;
+  --heat-3: #5aa2e8;
+  --heat-4: #2f7fd0;
+}
