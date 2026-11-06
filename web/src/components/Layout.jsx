@@ -10,11 +10,12 @@ import { useWords } from '../lib/words';
 const NAV = [
   { to: '/', icon: 'home', label: 'Tổng quan', end: true },
   { to: '/words', icon: 'book', label: 'Sổ từ vựng' },
+  { to: '/sets', icon: 'layers', label: 'Bộ từ vựng', short: 'Bộ từ' },
   { to: '/practice', icon: 'game', label: 'Luyện tập' },
   { to: '/friends', icon: 'users', label: 'Bạn bè' },
 ];
 
-const TITLES = { '': 'Tổng quan', words: 'Sổ từ vựng', practice: 'Luyện tập', friends: 'Bạn bè' };
+const TITLES = { '': 'Tổng quan', words: 'Sổ từ vựng', sets: 'Bộ từ vựng', practice: 'Luyện tập', friends: 'Bạn bè' };
 
 export function Brand() {
   return (
@@ -76,7 +77,7 @@ export default function Layout() {
           <div className="crumbs">
             <span>Không gian của bạn</span>
             <Icon name="chevron" size={13} />
-            <b>{TITLES[seg] ?? ''}{sub && seg === 'friends' ? ' / Hồ sơ' : ''}{sub && seg === 'practice' ? ' / Chơi' : ''}</b>
+            <b>{TITLES[seg] ?? ''}{sub && seg === 'friends' ? ' / Hồ sơ' : ''}{sub && seg === 'practice' ? ' / Chơi' : ''}{sub && seg === 'sets' ? ' / Chi tiết' : ''}</b>
           </div>
           <div className="row">
             {usingEmulator && (
@@ -100,7 +101,7 @@ export default function Layout() {
         {NAV.map((n) => (
           <NavLink key={n.to} to={n.to} end={n.end} className={({ isActive }) => (isActive ? 'active' : '')}>
             <Icon name={n.icon} size={20} />
-            {n.label}
+            {n.short || n.label}
             {n.to === '/friends' && incoming.length > 0 && <span className="count">{incoming.length}</span>}
           </NavLink>
         ))}

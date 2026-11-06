@@ -15,6 +15,11 @@ import FriendProfile from './pages/FriendProfile';
 import Setup from './pages/Setup';
 
 const Play = lazy(() => import('./pages/Play'));
+// Bộ từ vựng kèm dữ liệu thư viện (~36KB) — tải khi mở trang
+const Sets = lazy(() => import('./pages/Sets'));
+const SetDetail = lazy(() => import('./pages/SetDetail'));
+const LibrarySet = lazy(() => import('./pages/LibrarySet'));
+const lazyEl = (C) => <Suspense fallback={<Spinner />}><C /></Suspense>;
 
 function Gate() {
   const { user, loading } = useAuth();
@@ -27,6 +32,9 @@ function Gate() {
           <Route element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="words" element={<Words />} />
+            <Route path="sets" element={lazyEl(Sets)} />
+            <Route path="sets/t/:tag" element={lazyEl(SetDetail)} />
+            <Route path="sets/lib/:id" element={lazyEl(LibrarySet)} />
             <Route path="practice" element={<Practice />} />
             <Route path="practice/:game" element={<Suspense fallback={<Spinner />}><Play /></Suspense>} />
             <Route path="friends" element={<Friends />} />

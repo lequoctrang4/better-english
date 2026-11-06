@@ -43,6 +43,12 @@ Quyền (xem `firestore.rules`): chỉ chủ sở hữu được ghi; bạn bè 
 
 - `src/styles/tokens.css` — toàn bộ màu/bo góc/font (theme Vibe Room). Đổi theme chỉ cần sửa file này.
 - `src/lib/` — Firebase, dữ liệu từ vựng, bạn bè.
-- `src/pages/` — Tổng quan, Sổ từ vựng, Luyện tập, Bạn bè, Hồ sơ bạn bè.
+- `src/pages/` — Tổng quan, Sổ từ vựng, Bộ từ vựng, Luyện tập, Bạn bè, Hồ sơ bạn bè.
+- **Bộ từ vựng** (`/sets`): mỗi bộ = một tag trong sổ, không cần collection riêng.
+  - Thư viện bộ có sẵn (Động vật, Đồ vật trong nhà, Văn phòng & đồ công nghệ) nằm ở `src/data/sets.json`,
+    sinh bởi `python3 scripts/gen_web_sets.py` (bộ Động vật lấy từ `data/vocab.json`, tag `animals`).
+    Thêm bộ mới: sửa script rồi chạy lại.
+  - Tự tạo bộ: đặt tên → thêm từ mới hoặc chọn từ có sẵn trong sổ. Xoá bộ chỉ gỡ tag, không xoá từ.
+  - Luyện theo bộ: `/practice?tag=<tag>`; trắc nghiệm lấy đáp án nhiễu trong cùng bộ nếu bộ có ≥ 4 từ.
 - `src/games/` — Thẻ ghi nhớ, Ghép từ, Trắc nghiệm, Gõ từ, Sắp chữ, Nghe & gõ.
 - Nút **Nhập JSON** trong Sổ từ vựng nhận file `data/vocab.json` của dự án.

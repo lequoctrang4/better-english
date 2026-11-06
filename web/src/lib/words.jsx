@@ -12,6 +12,8 @@ import {
   where,
   getDocs,
   updateDoc,
+  arrayUnion,
+  arrayRemove,
 } from 'firebase/firestore';
 import { db } from './firebase';
 import { useAuth } from './auth';
@@ -244,6 +246,62 @@ export async function importWords(uid, items, existing) {
     await batch.commit();
   }
   return { added: rows.length, skipped: items.length - rows.length };
+}
+
+/* ---------- Bộ từ vựng (mỗi bộ = một tag) ---------- */
+export const normTag = (s) => String(s || '').trim().toLowerCase().replace(/\s+/g, ' ');
+
+/** Chạy các thao tác ghi theo lô (Firestore giới hạn 500 thao tác / batch) */
+async function commitChunks(ops, uid, activity) {
+  for (let i = 0; i < ops.length; i += 400) {
+    const batch = writeBatch(db);
+    for (const op of ops.slice(i, i + 400)) op(batch);
+    if (i === 0 && activity) bumpActivity(batch, uid, activity);
+    await batch.commit();
+  }
+}
+
+/**
+ * Thêm các từ của một bộ có sẵn vào sổ, gắn tag của bộ.
+ * Từ đã có trong sổ (trùng chữ) thì chỉ gắn thêm tag, không tạo bản sao.
+ * Trả về { added, tagged }.
+ */
+export async function addSetWords(uid, items, tag, existing, { mastered = false } = {}) {
+  const byText = new Map(existing.map((w) => [w.text.toLowerCase(), w]));
+  const ops = [];
+  let added = 0;
+  let tagged = 0;
+  for (const it of items) {
+    const key = it.text.trim().toLowerCase();
+    const have = byText.get(key);
+    if (have) {
+      if (!(have.tags || []).includes(tag)) {
+        ops.push((b) => b.update(doc(wordsCol(uid), have.id), { tags: arrayUnion(tag) }));
+        tagged += 1;
+      }
+      continue;
+    }
+    byText.set(key, it);
+    const w = clean({ ...it, tags: [tag], status: mastered ? 'mastered' : 'learning' });
+    ops.push((b) =>
+      b.set(doc(wordsCol(uid)), {
+        ...w,
+        ...srsForStatus(mastered),
+        lapses: 0, correct: 0, wrong: 0, lastPracticedAt: null, createdAt: serverTimestamp(),
+      }),
+    );
+    added += 1;
+  }
+  await commitChunks(ops, uid, added ? { added, mastered: mastered ? added : 0 } : null);
+  return { added, tagged };
+}
+
+/** Gắn / gỡ tag của bộ cho nhiều từ trong sổ (không xoá từ) */
+export async function tagWords(uid, ids, tag) {
+  await commitChunks(ids.map((id) => (b) => b.update(doc(wordsCol(uid), id), { tags: arrayUnion(tag) })));
+}
+export async function untagWords(uid, ids, tag) {
+  await commitChunks(ids.map((id) => (b) => b.update(doc(wordsCol(uid), id), { tags: arrayRemove(tag) })));
 }
 
 /** Hoạt động N ngày gần nhất của một user (mình hoặc bạn bè) */

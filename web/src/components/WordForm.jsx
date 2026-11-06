@@ -14,7 +14,8 @@ const empty = () => ({
   status: 'learning', learnedAt: dayKey(), masteredAt: dayKey(),
 });
 
-export default function WordForm({ word, onClose }) {
+/** preset: giá trị mặc định cho từ mới, vd. { tags: 'animals' } khi thêm từ vào một bộ */
+export default function WordForm({ word, onClose, preset }) {
   const { user } = useAuth();
   const { words } = useWords();
   const toast = useToast();
@@ -27,7 +28,7 @@ export default function WordForm({ word, onClose }) {
           learnedAt: inputDate(word.learnedAt) || dayKey(),
           masteredAt: inputDate(word.masteredAt) || dayKey(),
         }
-      : empty(),
+      : { ...empty(), ...preset },
   );
   const [busy, setBusy] = useState(false);
   const [keepOpen, setKeepOpen] = useState(false);

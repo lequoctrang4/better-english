@@ -484,3 +484,47 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .bottom-nav a.active { color: var(--accent-ink); }
   .bottom-nav .count { position: absolute; top: -2px; right: calc(50% - 22px); min-width: 16px; height: 16px; font-size: 10px; }
 }
+
+/* ---------- Bộ từ vựng ---------- */
+.set-emoji {
+  width: 44px; height: 44px; flex: none; border-radius: 12px; background: var(--accent-soft);
+  display: grid; place-items: center; font-size: 22px; line-height: 1;
+}
+.set-emoji.lg { width: 58px; height: 58px; font-size: 30px; border-radius: 16px; }
+.set-card { cursor: pointer; transition: transform .15s var(--ease), border-color .15s; }
+.set-card:hover { transform: translateY(-2px); border-color: var(--hover-line); }
+.set-card:focus-visible, .set-lib:focus-visible { outline: 2px solid var(--accent-ink); outline-offset: 2px; }
+.set-name { font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.set-lib { min-height: 190px; }
+.set-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 14px 16px;
+  position: sticky; top: 8px; z-index: 5;
+}
+.lib-row {
+  display: grid; grid-template-columns: 34px minmax(0, 1fr) minmax(0, 1.7fr); gap: 14px; align-items: start;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.lib-row:hover { border-color: var(--line-strong); background: var(--hover); }
+.lib-row.on { border-color: var(--accent-ink); background: var(--accent-softer); }
+.lib-row.have { cursor: default; opacity: .72; }
+.lib-row > input[type="checkbox"] { width: 18px; height: 18px; margin: 8px 0 0 7px; accent-color: var(--accent-ink); }
+.lib-row .tick { margin-top: 2px; }
+.lib-example { color: var(--text-soft); font-size: 12.5px; margin-top: 4px; font-style: italic; }
+.lib-example .muted { font-style: normal; }
+.lib-note { color: var(--muted); font-size: 12px; margin-top: 4px; white-space: pre-line; }
+.pick-list { display: flex; flex-direction: column; gap: 4px; max-height: 50vh; overflow-y: auto; }
+.pick-row {
+  display: flex; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 10px; cursor: pointer;
+  border: 1px solid transparent; min-width: 0;
+}
+.pick-row:hover { background: var(--hover); }
+.pick-row.on { background: var(--accent-softer); border-color: var(--accent-ink); }
+.pick-row input { width: 17px; height: 17px; flex: none; accent-color: var(--accent-ink); }
+.pick-row b { font-family: var(--font-head); white-space: nowrap; }
+.pick-row .muted { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 760px) {
+  .lib-row { grid-template-columns: 28px minmax(0, 1fr); }
+  .lib-row > div:last-child { grid-column: 2; }
+  .set-bar { top: 0; }
+}

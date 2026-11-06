@@ -1,0 +1,23 @@
+[
+ {
+  "id": "animals",
+  "tag": "animals",
+  "emoji": "🐾",
+  "name": "Động vật",
+  "en": "Animals"
+ },
+ {
+  "id": "household",
+  "tag": "household",
+  "emoji": "🏠",
+  "name": "Đồ vật trong nhà",
+  "en": "Household items"
+ },
+ {
+  "id": "office",
+  "tag": "office",
+  "emoji": "💻",
+  "name": "Văn phòng & đồ công nghệ",
+  "en": "Office & tech gear"
+ }
+]

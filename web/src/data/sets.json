@@ -1,0 +1,1106 @@
+[
+ {
+  "id": "animals",
+  "tag": "animals",
+  "emoji": "🐾",
+  "name": "Động vật",
+  "en": "Animals",
+  "desc": "Vật nuôi, thú hoang, chim, sinh vật biển và côn trùng — kèm vài thành ngữ hay gặp như night owl, busy as a bee.",
+  "groups": [
+   {
+    "name": "Trang trại",
+    "emoji": "🐐",
+    "words": [
+     {
+      "text": "donkey",
+      "pos": "noun",
+      "ipa": "/ˈdɑːŋki/",
+      "meaning": "con lừa",
+      "example": "The donkey carried the bags up the mountain.",
+      "exampleVi": "Con lừa chở đống túi lên núi.",
+      "note": ""
+     },
+     {
+      "text": "duck",
+      "pos": "noun",
+      "ipa": "/dʌk/",
+      "meaning": "con vịt",
+      "example": "My kids love feeding the ducks in the park.",
+      "exampleVi": "Bọn trẻ nhà tôi thích cho vịt ăn ở công viên.",
+      "note": "Dân dev: 'rubber duck debugging' = giải thích code cho con vịt cao su để tự tìm ra bug.\nCụm hay dùng: rubber duck debugging"
+     },
+     {
+      "text": "goat",
+      "pos": "noun",
+      "ipa": "/ɡoʊt/",
+      "meaning": "con dê",
+      "example": "The goat is eating grass on the hill.",
+      "exampleVi": "Con dê đang ăn cỏ trên đồi.",
+      "note": ""
+     },
+     {
+      "text": "goose",
+      "pos": "noun",
+      "ipa": "/ɡuːs/",
+      "meaning": "con ngỗng",
+      "example": "A goose chased me across the field.",
+      "exampleVi": "Một con ngỗng đuổi tôi chạy qua cánh đồng.",
+      "note": "Số nhiều bất quy tắc: goose → geese. 'a wild goose chase' = việc tìm kiếm vô ích.\nCụm hay dùng: a wild goose chase"
+     },
+     {
+      "text": "hen",
+      "pos": "noun",
+      "ipa": "/hen/",
+      "meaning": "gà mái",
+      "example": "Our hens lay about six eggs a day.",
+      "exampleVi": "Mấy con gà mái nhà tôi đẻ khoảng sáu trứng mỗi ngày.",
+      "note": "Liên quan: rooster (gà trống), chick (gà con).\nCụm hay dùng: lay eggs"
+     },
+     {
+      "text": "rooster",
+      "pos": "noun",
+      "ipa": "/ˈruːstər/",
+      "meaning": "gà trống",
+      "example": "The rooster crows every morning at five.",
+      "exampleVi": "Con gà trống gáy lúc năm giờ mỗi sáng.",
+      "note": "Gà mái: hen; gà con: chick; gà (chung/thịt gà): chicken."
+     },
+     {
+      "text": "sheep",
+      "pos": "noun",
+      "ipa": "/ʃiːp/",
+      "meaning": "con cừu",
+      "example": "There are hundreds of sheep on the farm.",
+      "exampleVi": "Có hàng trăm con cừu ở trang trại.",
+      "note": "Số nhiều bất quy tắc: sheep → sheep (không thêm s).\nCụm hay dùng: a flock of sheep; count sheep"
+     }
+    ]
+   },
+   {
+    "name": "Thú cưng",
+    "emoji": "🐶",
+    "words": [
+     {
+      "text": "hamster",
+      "pos": "noun",
+      "ipa": "/ˈhæmstər/",
+      "meaning": "chuột hamster",
+      "example": "My daughter wants a hamster for her birthday.",
+      "exampleVi": "Con gái tôi muốn một con hamster vào sinh nhật.",
+      "note": ""
+     },
+     {
+      "text": "kitten",
+      "pos": "noun",
+      "ipa": "/ˈkɪtn/",
+      "meaning": "mèo con",
+      "example": "The kitten is sleeping on my keyboard again.",
+      "exampleVi": "Con mèo con lại ngủ trên bàn phím của tôi.",
+      "note": ""
+     },
+     {
+      "text": "puppy",
+      "pos": "noun",
+      "ipa": "/ˈpʌpi/",
+      "meaning": "chó con",
+      "example": "We just adopted a puppy from the shelter.",
+      "exampleVi": "Chúng tôi vừa nhận nuôi một chú chó con từ trại cứu hộ.",
+      "note": "Cụm hay dùng: adopt a puppy"
+     }
+    ]
+   },
+   {
+    "name": "Động vật hoang dã",
+    "emoji": "🦊",
+    "words": [
+     {
+      "text": "bat",
+      "pos": "noun",
+      "ipa": "/bæt/",
+      "meaning": "con dơi",
+      "example": "Bats come out to hunt at night.",
+      "exampleVi": "Dơi ra ngoài săn mồi vào ban đêm.",
+      "note": "Cũng có nghĩa: cây gậy bóng chày."
+     },
+     {
+      "text": "bear",
+      "pos": "noun",
+      "ipa": "/ber/",
+      "meaning": "con gấu",
+      "example": "Bears sleep through most of the winter.",
+      "exampleVi": "Gấu ngủ gần hết mùa đông.",
+      "note": "'bear market' = thị trường giá xuống (ngược với bull market).\nCụm hay dùng: a polar bear; a bear market"
+     },
+     {
+      "text": "crocodile",
+      "pos": "noun",
+      "ipa": "/ˈkrɑːkədaɪl/",
+      "meaning": "con cá sấu",
+      "example": "Don't swim in that river, there are crocodiles.",
+      "exampleVi": "Đừng bơi ở con sông đó, có cá sấu.",
+      "note": "'crocodile tears' = nước mắt cá sấu, khóc giả.\nCụm hay dùng: crocodile tears"
+     },
+     {
+      "text": "deer",
+      "pos": "noun",
+      "ipa": "/dɪr/",
+      "meaning": "con hươu; con nai",
+      "example": "We saw a deer near the road last night.",
+      "exampleVi": "Tối qua chúng tôi thấy một con nai gần đường.",
+      "note": "Số nhiều bất quy tắc: deer → deer."
+     },
+     {
+      "text": "fox",
+      "pos": "noun",
+      "ipa": "/fɑːks/",
+      "meaning": "con cáo",
+      "example": "The fox is known as a clever animal.",
+      "exampleVi": "Cáo được biết đến là loài vật thông minh.",
+      "note": "Cụm hay dùng: as sly as a fox"
+     },
+     {
+      "text": "frog",
+      "pos": "noun",
+      "ipa": "/frɑːɡ/",
+      "meaning": "con ếch",
+      "example": "I can hear frogs after the rain.",
+      "exampleVi": "Tôi nghe tiếng ếch kêu sau cơn mưa.",
+      "note": "'have a frog in your throat' = bị khàn giọng.\nCụm hay dùng: have a frog in your throat"
+     },
+     {
+      "text": "giraffe",
+      "pos": "noun",
+      "ipa": "/dʒəˈræf/",
+      "meaning": "hươu cao cổ",
+      "example": "A giraffe can eat leaves from tall trees.",
+      "exampleVi": "Hươu cao cổ có thể ăn lá trên cây cao.",
+      "note": ""
+     },
+     {
+      "text": "lizard",
+      "pos": "noun",
+      "ipa": "/ˈlɪzərd/",
+      "meaning": "con thằn lằn",
+      "example": "A small lizard is climbing up the wall.",
+      "exampleVi": "Một con thằn lằn nhỏ đang bò lên tường.",
+      "note": "Thạch sùng trong nhà: gecko /ˈɡekoʊ/."
+     },
+     {
+      "text": "rhinoceros",
+      "pos": "noun",
+      "ipa": "/raɪˈnɑːsərəs/",
+      "meaning": "con tê giác",
+      "example": "The rhinoceros is in danger because of hunting.",
+      "exampleVi": "Tê giác đang bị đe dọa vì nạn săn bắt.",
+      "note": "Thường nói tắt: rhino /ˈraɪnoʊ/."
+     },
+     {
+      "text": "snake",
+      "pos": "noun",
+      "ipa": "/sneɪk/",
+      "meaning": "con rắn",
+      "example": "Be careful, there might be snakes in the grass.",
+      "exampleVi": "Cẩn thận, có thể có rắn trong cỏ.",
+      "note": "Ngôn ngữ Python được đặt theo nhóm hài Monty Python, nhưng logo là con trăn (python)."
+     },
+     {
+      "text": "squirrel",
+      "pos": "noun",
+      "ipa": "/ˈskwɜːrəl/",
+      "meaning": "con sóc",
+      "example": "A squirrel ran up the tree with a nut.",
+      "exampleVi": "Một con sóc chạy lên cây với hạt dẻ.",
+      "note": ""
+     },
+     {
+      "text": "turtle",
+      "pos": "noun",
+      "ipa": "/ˈtɜːrtl/",
+      "meaning": "con rùa",
+      "example": "Sea turtles can live for over 50 years.",
+      "exampleVi": "Rùa biển có thể sống hơn 50 năm.",
+      "note": "Rùa cạn thường gọi là tortoise /ˈtɔːrtəs/."
+     },
+     {
+      "text": "wolf",
+      "pos": "noun",
+      "ipa": "/wʊlf/",
+      "meaning": "chó sói",
+      "example": "Wolves usually hunt in packs.",
+      "exampleVi": "Chó sói thường săn mồi theo bầy.",
+      "note": "Số nhiều: wolf → wolves. 'a lone wolf' = người thích làm việc một mình.\nCụm hay dùng: a pack of wolves; a lone wolf"
+     },
+     {
+      "text": "zebra",
+      "pos": "noun",
+      "ipa": "/ˈziːbrə/",
+      "meaning": "ngựa vằn",
+      "example": "Every zebra has a unique pattern of stripes.",
+      "exampleVi": "Mỗi con ngựa vằn có hoa văn sọc riêng.",
+      "note": "'zebra crossing' (Anh-Anh) = vạch qua đường cho người đi bộ.\nCụm hay dùng: zebra crossing"
+     }
+    ]
+   },
+   {
+    "name": "Các loài chim",
+    "emoji": "🦉",
+    "words": [
+     {
+      "text": "eagle",
+      "pos": "noun",
+      "ipa": "/ˈiːɡl/",
+      "meaning": "chim đại bàng",
+      "example": "An eagle was flying high above the mountains.",
+      "exampleVi": "Một con đại bàng bay cao trên dãy núi.",
+      "note": "'eagle-eyed' = tinh mắt, phát hiện chi tiết nhỏ (VD: an eagle-eyed reviewer).\nCụm hay dùng: eagle-eyed"
+     },
+     {
+      "text": "owl",
+      "pos": "noun",
+      "ipa": "/aʊl/",
+      "meaning": "con cú",
+      "example": "I'm a night owl, I code best after midnight.",
+      "exampleVi": "Tôi là cú đêm, tôi code tốt nhất sau nửa đêm.",
+      "note": "'night owl' = người hay thức khuya; ngược lại: early bird.\nCụm hay dùng: a night owl"
+     },
+     {
+      "text": "parrot",
+      "pos": "noun",
+      "ipa": "/ˈpærət/",
+      "meaning": "con vẹt",
+      "example": "Our parrot can say 'hello' and 'goodbye'.",
+      "exampleVi": "Con vẹt nhà tôi biết nói 'hello' và 'goodbye'.",
+      "note": "Cũng là động từ: nhại lại như vẹt (parrot someone's words)."
+     },
+     {
+      "text": "pigeon",
+      "pos": "noun",
+      "ipa": "/ˈpɪdʒɪn/",
+      "meaning": "chim bồ câu",
+      "example": "Pigeons are everywhere in the city square.",
+      "exampleVi": "Chim bồ câu ở khắp quảng trường thành phố.",
+      "note": "Bồ câu trắng (biểu tượng hòa bình): dove /dʌv/."
+     },
+     {
+      "text": "sparrow",
+      "pos": "noun",
+      "ipa": "/ˈspæroʊ/",
+      "meaning": "chim sẻ",
+      "example": "A sparrow landed on my window this morning.",
+      "exampleVi": "Sáng nay một con chim sẻ đậu trên cửa sổ nhà tôi.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "name": "Dưới biển",
+    "emoji": "🐬",
+    "words": [
+     {
+      "text": "crab",
+      "pos": "noun",
+      "ipa": "/kræb/",
+      "meaning": "con cua",
+      "example": "We had crab and shrimp for dinner.",
+      "exampleVi": "Tối nay chúng tôi ăn cua và tôm.",
+      "note": ""
+     },
+     {
+      "text": "dolphin",
+      "pos": "noun",
+      "ipa": "/ˈdɑːlfɪn/",
+      "meaning": "cá heo",
+      "example": "Dolphins are very smart and friendly.",
+      "exampleVi": "Cá heo rất thông minh và thân thiện.",
+      "note": ""
+     },
+     {
+      "text": "jellyfish",
+      "pos": "noun",
+      "ipa": "/ˈdʒelifɪʃ/",
+      "meaning": "con sứa",
+      "example": "I got stung by a jellyfish at the beach.",
+      "exampleVi": "Tôi bị sứa đốt ở bãi biển.",
+      "note": "Số nhiều thường giữ nguyên: jellyfish.\nCụm hay dùng: get stung by a jellyfish"
+     },
+     {
+      "text": "octopus",
+      "pos": "noun",
+      "ipa": "/ˈɑːktəpəs/",
+      "meaning": "con bạch tuộc",
+      "example": "An octopus has eight arms.",
+      "exampleVi": "Bạch tuộc có tám xúc tu.",
+      "note": "Số nhiều: octopuses (phổ biến) hoặc octopi."
+     },
+     {
+      "text": "shark",
+      "pos": "noun",
+      "ipa": "/ʃɑːrk/",
+      "meaning": "cá mập",
+      "example": "Sharks have been around for millions of years.",
+      "exampleVi": "Cá mập đã tồn tại hàng triệu năm.",
+      "note": "'loan shark' = kẻ cho vay nặng lãi.\nCụm hay dùng: loan shark"
+     },
+     {
+      "text": "shrimp",
+      "pos": "noun",
+      "ipa": "/ʃrɪmp/",
+      "meaning": "con tôm",
+      "example": "This shrimp soup is really spicy.",
+      "exampleVi": "Món canh tôm này cay thật.",
+      "note": "Tôm to (tôm sú/tôm hùm đất) hay gọi là prawn /prɔːn/; tôm hùm: lobster."
+     },
+     {
+      "text": "whale",
+      "pos": "noun",
+      "ipa": "/weɪl/",
+      "meaning": "cá voi",
+      "example": "The blue whale is the largest animal on Earth.",
+      "exampleVi": "Cá voi xanh là loài vật lớn nhất trên Trái Đất.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "name": "Côn trùng & con vật nhỏ",
+    "emoji": "🐝",
+    "words": [
+     {
+      "text": "ant",
+      "pos": "noun",
+      "ipa": "/ænt/",
+      "meaning": "con kiến",
+      "example": "There are ants all over the kitchen table.",
+      "exampleVi": "Kiến bò khắp bàn bếp.",
+      "note": ""
+     },
+     {
+      "text": "bee",
+      "pos": "noun",
+      "ipa": "/biː/",
+      "meaning": "con ong",
+      "example": "She's been as busy as a bee all week.",
+      "exampleVi": "Cả tuần nay cô ấy bận tối mắt tối mũi.",
+      "note": "'busy as a bee' = rất bận rộn.\nCụm hay dùng: as busy as a bee; a bee sting"
+     },
+     {
+      "text": "butterfly",
+      "pos": "noun",
+      "ipa": "/ˈbʌtərflaɪ/",
+      "meaning": "con bướm",
+      "example": "I get butterflies before every presentation.",
+      "exampleVi": "Tôi luôn hồi hộp trước mỗi buổi thuyết trình.",
+      "note": "'have butterflies (in your stomach)' = hồi hộp, run.\nCụm hay dùng: have butterflies in your stomach"
+     },
+     {
+      "text": "cockroach",
+      "pos": "noun",
+      "ipa": "/ˈkɑːkroʊtʃ/",
+      "meaning": "con gián",
+      "example": "I saw a cockroach in the bathroom last night.",
+      "exampleVi": "Tối qua tôi thấy một con gián trong nhà tắm.",
+      "note": "Nói tắt (Mỹ): roach."
+     },
+     {
+      "text": "mosquito",
+      "pos": "noun",
+      "ipa": "/məˈskiːtoʊ/",
+      "meaning": "con muỗi",
+      "example": "I couldn't sleep because of the mosquitoes.",
+      "exampleVi": "Tôi không ngủ được vì muỗi.",
+      "note": "Số nhiều: mosquitoes.\nCụm hay dùng: a mosquito bite"
+     },
+     {
+      "text": "snail",
+      "pos": "noun",
+      "ipa": "/sneɪl/",
+      "meaning": "con ốc sên",
+      "example": "The internet is moving at a snail's pace today.",
+      "exampleVi": "Hôm nay mạng chậm như rùa bò.",
+      "note": "'at a snail's pace' = cực kỳ chậm (tiếng Việt hay nói 'chậm như rùa').\nCụm hay dùng: at a snail's pace"
+     },
+     {
+      "text": "spider",
+      "pos": "noun",
+      "ipa": "/ˈspaɪdər/",
+      "meaning": "con nhện",
+      "example": "There's a big spider in the corner of the room.",
+      "exampleVi": "Có một con nhện to ở góc phòng.",
+      "note": "Nhện không phải côn trùng nhưng hay xếp chung. Mạng nhện: spider web / cobweb.\nCụm hay dùng: a spider web"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "household",
+  "tag": "household",
+  "emoji": "🏠",
+  "name": "Đồ vật trong nhà",
+  "en": "Household items",
+  "desc": "Những thứ bạn chạm vào mỗi ngày: nhà bếp, phòng ngủ, phòng tắm, phòng khách và dụng cụ.",
+  "groups": [
+   {
+    "name": "Nhà bếp",
+    "emoji": "🍳",
+    "words": [
+     {
+      "text": "kettle",
+      "pos": "noun",
+      "ipa": "/ˈketl/",
+      "meaning": "ấm đun nước",
+      "example": "Can you put the kettle on?",
+      "exampleVi": "Bạn đun giúp ấm nước được không?",
+      "note": "'put the kettle on' = bật ấm đun nước (thường để pha trà)."
+     },
+     {
+      "text": "frying pan",
+      "pos": "noun",
+      "ipa": "/ˈfraɪɪŋ pæn/",
+      "meaning": "chảo rán",
+      "example": "Heat some oil in a frying pan.",
+      "exampleVi": "Làm nóng chút dầu trong chảo.",
+      "note": ""
+     },
+     {
+      "text": "pot",
+      "pos": "noun",
+      "ipa": "/pɑːt/",
+      "meaning": "cái nồi",
+      "example": "She cooked a big pot of soup.",
+      "exampleVi": "Cô ấy nấu một nồi canh lớn.",
+      "note": ""
+     },
+     {
+      "text": "cutting board",
+      "pos": "noun",
+      "ipa": "/ˈkʌtɪŋ bɔːrd/",
+      "meaning": "cái thớt",
+      "example": "Put the onions on the cutting board.",
+      "exampleVi": "Để hành lên thớt đi.",
+      "note": ""
+     },
+     {
+      "text": "ladle",
+      "pos": "noun",
+      "ipa": "/ˈleɪdl/",
+      "meaning": "cái muôi, cái vá",
+      "example": "Use the ladle to serve the soup.",
+      "exampleVi": "Dùng muôi để múc canh.",
+      "note": ""
+     },
+     {
+      "text": "chopsticks",
+      "pos": "noun",
+      "ipa": "/ˈtʃɑːpstɪks/",
+      "meaning": "đôi đũa",
+      "example": "Can you pass me a pair of chopsticks?",
+      "exampleVi": "Đưa giúp mình một đôi đũa nhé?",
+      "note": "Luôn dùng số nhiều; một đôi: a pair of chopsticks."
+     },
+     {
+      "text": "fridge",
+      "pos": "noun",
+      "ipa": "/frɪdʒ/",
+      "meaning": "tủ lạnh",
+      "example": "There's some leftover pizza in the fridge.",
+      "exampleVi": "Còn ít pizza thừa trong tủ lạnh.",
+      "note": "Trang trọng: refrigerator. Ngăn đá: freezer."
+     },
+     {
+      "text": "microwave",
+      "pos": "noun",
+      "ipa": "/ˈmaɪkrəweɪv/",
+      "meaning": "lò vi sóng",
+      "example": "Just heat it up in the microwave.",
+      "exampleVi": "Cứ hâm nóng nó trong lò vi sóng.",
+      "note": "Cụm hay dùng: heat something up in the microwave."
+     },
+     {
+      "text": "sink",
+      "pos": "noun",
+      "ipa": "/sɪŋk/",
+      "meaning": "bồn rửa",
+      "example": "The sink is full of dirty dishes.",
+      "exampleVi": "Bồn rửa đầy bát đĩa bẩn.",
+      "note": ""
+     },
+     {
+      "text": "cupboard",
+      "pos": "noun",
+      "ipa": "/ˈkʌbərd/",
+      "meaning": "tủ bếp, tủ chén",
+      "example": "The cups are in the cupboard above the sink.",
+      "exampleVi": "Cốc ở trong tủ phía trên bồn rửa.",
+      "note": "Chữ 'p' câm: /ˈkʌbərd/."
+     }
+    ]
+   },
+   {
+    "name": "Phòng ngủ",
+    "emoji": "🛏️",
+    "words": [
+     {
+      "text": "pillow",
+      "pos": "noun",
+      "ipa": "/ˈpɪloʊ/",
+      "meaning": "cái gối",
+      "example": "I can't sleep without my own pillow.",
+      "exampleVi": "Tôi không ngủ được nếu thiếu gối của mình.",
+      "note": ""
+     },
+     {
+      "text": "blanket",
+      "pos": "noun",
+      "ipa": "/ˈblæŋkɪt/",
+      "meaning": "cái chăn",
+      "example": "It's cold, grab another blanket.",
+      "exampleVi": "Lạnh đấy, lấy thêm cái chăn đi.",
+      "note": ""
+     },
+     {
+      "text": "mattress",
+      "pos": "noun",
+      "ipa": "/ˈmætrəs/",
+      "meaning": "cái nệm",
+      "example": "This mattress is too soft for me.",
+      "exampleVi": "Cái nệm này quá mềm với tôi.",
+      "note": ""
+     },
+     {
+      "text": "wardrobe",
+      "pos": "noun",
+      "ipa": "/ˈwɔːrdroʊb/",
+      "meaning": "tủ quần áo",
+      "example": "Hang your shirt in the wardrobe.",
+      "exampleVi": "Treo áo vào tủ quần áo đi.",
+      "note": "Người Mỹ hay nói closet /ˈklɑːzɪt/ (tủ âm tường)."
+     },
+     {
+      "text": "hanger",
+      "pos": "noun",
+      "ipa": "/ˈhæŋər/",
+      "meaning": "móc treo quần áo",
+      "example": "We need more hangers for these jackets.",
+      "exampleVi": "Mình cần thêm móc để treo mấy cái áo khoác này.",
+      "note": ""
+     },
+     {
+      "text": "drawer",
+      "pos": "noun",
+      "ipa": "/drɔːr/",
+      "meaning": "ngăn kéo",
+      "example": "My passport is in the top drawer.",
+      "exampleVi": "Hộ chiếu của tôi ở ngăn kéo trên cùng.",
+      "note": "Tủ có nhiều ngăn kéo: chest of drawers."
+     },
+     {
+      "text": "alarm clock",
+      "pos": "noun",
+      "ipa": "/əˈlɑːrm klɑːk/",
+      "meaning": "đồng hồ báo thức",
+      "example": "I didn't hear my alarm clock this morning.",
+      "exampleVi": "Sáng nay tôi không nghe thấy chuông báo thức.",
+      "note": "Cụm hay dùng: set the alarm (for 6 a.m.)."
+     }
+    ]
+   },
+   {
+    "name": "Phòng tắm",
+    "emoji": "🛁",
+    "words": [
+     {
+      "text": "towel",
+      "pos": "noun",
+      "ipa": "/ˈtaʊəl/",
+      "meaning": "khăn tắm",
+      "example": "Don't leave your wet towel on the bed.",
+      "exampleVi": "Đừng để khăn ướt trên giường.",
+      "note": ""
+     },
+     {
+      "text": "toothbrush",
+      "pos": "noun",
+      "ipa": "/ˈtuːθbrʌʃ/",
+      "meaning": "bàn chải đánh răng",
+      "example": "I forgot to pack my toothbrush.",
+      "exampleVi": "Tôi quên mang bàn chải đánh răng.",
+      "note": "Kem đánh răng: toothpaste."
+     },
+     {
+      "text": "shampoo",
+      "pos": "noun",
+      "ipa": "/ʃæmˈpuː/",
+      "meaning": "dầu gội",
+      "example": "We're out of shampoo.",
+      "exampleVi": "Nhà mình hết dầu gội rồi.",
+      "note": "Dầu xả: conditioner."
+     },
+     {
+      "text": "razor",
+      "pos": "noun",
+      "ipa": "/ˈreɪzər/",
+      "meaning": "dao cạo",
+      "example": "He shaves with an electric razor.",
+      "exampleVi": "Anh ấy cạo râu bằng dao cạo điện.",
+      "note": ""
+     },
+     {
+      "text": "mirror",
+      "pos": "noun",
+      "ipa": "/ˈmɪrər/",
+      "meaning": "cái gương",
+      "example": "She checked her hair in the mirror.",
+      "exampleVi": "Cô ấy soi gương xem lại tóc.",
+      "note": ""
+     },
+     {
+      "text": "faucet",
+      "pos": "noun",
+      "ipa": "/ˈfɔːsɪt/",
+      "meaning": "vòi nước",
+      "example": "The bathroom faucet is leaking again.",
+      "exampleVi": "Vòi nước phòng tắm lại bị rỉ.",
+      "note": "Anh-Anh: tap. Cụm hay dùng: turn on / turn off the faucet."
+     }
+    ]
+   },
+   {
+    "name": "Phòng khách & dọn dẹp",
+    "emoji": "🛋️",
+    "words": [
+     {
+      "text": "couch",
+      "pos": "noun",
+      "ipa": "/kaʊtʃ/",
+      "meaning": "ghế sofa",
+      "example": "I fell asleep on the couch watching TV.",
+      "exampleVi": "Tôi ngủ quên trên sofa lúc xem TV.",
+      "note": "Đồng nghĩa: sofa. 'couch potato' = người lười, suốt ngày nằm xem TV."
+     },
+     {
+      "text": "cushion",
+      "pos": "noun",
+      "ipa": "/ˈkʊʃn/",
+      "meaning": "gối tựa, đệm ghế",
+      "example": "The keys fell between the cushions.",
+      "exampleVi": "Chùm chìa khóa rơi vào giữa mấy cái gối tựa.",
+      "note": ""
+     },
+     {
+      "text": "remote control",
+      "pos": "noun",
+      "ipa": "/rɪˈmoʊt kənˈtroʊl/",
+      "meaning": "điều khiển từ xa",
+      "example": "Have you seen the remote control?",
+      "exampleVi": "Có ai thấy cái điều khiển đâu không?",
+      "note": "Nói tự nhiên: the remote."
+     },
+     {
+      "text": "curtain",
+      "pos": "noun",
+      "ipa": "/ˈkɜːrtn/",
+      "meaning": "rèm cửa",
+      "example": "Can you close the curtains? It's too bright.",
+      "exampleVi": "Bạn kéo rèm lại được không? Chói quá.",
+      "note": "Cụm hay dùng: open / close / draw the curtains."
+     },
+     {
+      "text": "rug",
+      "pos": "noun",
+      "ipa": "/rʌɡ/",
+      "meaning": "tấm thảm (nhỏ)",
+      "example": "The dog is sleeping on the rug.",
+      "exampleVi": "Con chó đang ngủ trên tấm thảm.",
+      "note": "Thảm trải kín sàn: carpet."
+     },
+     {
+      "text": "shelf",
+      "pos": "noun",
+      "ipa": "/ʃelf/",
+      "meaning": "cái kệ, giá",
+      "example": "Put the books back on the shelf.",
+      "exampleVi": "Để sách lại lên kệ.",
+      "note": "Số nhiều: shelves. 'off-the-shelf' = có sẵn, mua về dùng ngay (VD: off-the-shelf software)."
+     },
+     {
+      "text": "light bulb",
+      "pos": "noun",
+      "ipa": "/ˈlaɪt bʌlb/",
+      "meaning": "bóng đèn",
+      "example": "The light bulb in the hallway burned out.",
+      "exampleVi": "Bóng đèn ngoài hành lang bị cháy rồi.",
+      "note": "Thay bóng đèn: change / replace a light bulb."
+     },
+     {
+      "text": "extension cord",
+      "pos": "noun",
+      "ipa": "/ɪkˈstenʃn kɔːrd/",
+      "meaning": "ổ cắm kéo dài",
+      "example": "We need an extension cord for the laptop.",
+      "exampleVi": "Mình cần một ổ cắm kéo dài cho laptop.",
+      "note": "Anh-Anh: extension lead."
+     },
+     {
+      "text": "vacuum cleaner",
+      "pos": "noun",
+      "ipa": "/ˈvækjuːm ˌkliːnər/",
+      "meaning": "máy hút bụi",
+      "example": "The vacuum cleaner is really loud.",
+      "exampleVi": "Cái máy hút bụi ồn quá.",
+      "note": "Động từ: vacuum the floor = hút bụi sàn."
+     },
+     {
+      "text": "broom",
+      "pos": "noun",
+      "ipa": "/bruːm/",
+      "meaning": "cái chổi",
+      "example": "Grab the broom and sweep the kitchen.",
+      "exampleVi": "Lấy chổi quét bếp đi.",
+      "note": "Quét nhà: sweep the floor."
+     },
+     {
+      "text": "bucket",
+      "pos": "noun",
+      "ipa": "/ˈbʌkɪt/",
+      "meaning": "cái xô",
+      "example": "Fill the bucket with warm water.",
+      "exampleVi": "Đổ đầy nước ấm vào xô.",
+      "note": "'bucket list' = danh sách việc muốn làm trước khi chết."
+     }
+    ]
+   },
+   {
+    "name": "Dụng cụ & đồ mang theo",
+    "emoji": "🔧",
+    "words": [
+     {
+      "text": "scissors",
+      "pos": "noun",
+      "ipa": "/ˈsɪzərz/",
+      "meaning": "cái kéo",
+      "example": "Do you have a pair of scissors?",
+      "exampleVi": "Bạn có cái kéo nào không?",
+      "note": "Luôn số nhiều: these scissors are… ; một cái: a pair of scissors."
+     },
+     {
+      "text": "hammer",
+      "pos": "noun",
+      "ipa": "/ˈhæmər/",
+      "meaning": "cái búa",
+      "example": "I need a hammer to hang this picture.",
+      "exampleVi": "Tôi cần cái búa để treo bức tranh này.",
+      "note": ""
+     },
+     {
+      "text": "screwdriver",
+      "pos": "noun",
+      "ipa": "/ˈskruːdraɪvər/",
+      "meaning": "tua vít",
+      "example": "Use a small screwdriver to open the case.",
+      "exampleVi": "Dùng tua vít nhỏ để mở vỏ máy.",
+      "note": ""
+     },
+     {
+      "text": "tape",
+      "pos": "noun",
+      "ipa": "/teɪp/",
+      "meaning": "băng dính",
+      "example": "Stick the cable to the desk with tape.",
+      "exampleVi": "Dán dây cáp vào bàn bằng băng dính.",
+      "note": "Băng keo bạc: duct tape; băng dính trong (Mỹ): Scotch tape."
+     },
+     {
+      "text": "flashlight",
+      "pos": "noun",
+      "ipa": "/ˈflæʃlaɪt/",
+      "meaning": "đèn pin",
+      "example": "Use your phone's flashlight, it's dark in here.",
+      "exampleVi": "Bật đèn pin điện thoại lên, trong này tối quá.",
+      "note": "Anh-Anh: torch."
+     },
+     {
+      "text": "umbrella",
+      "pos": "noun",
+      "ipa": "/ʌmˈbrelə/",
+      "meaning": "cái ô, cái dù",
+      "example": "Take an umbrella, it might rain later.",
+      "exampleVi": "Mang ô theo đi, lát nữa có thể mưa.",
+      "note": ""
+     },
+     {
+      "text": "wallet",
+      "pos": "noun",
+      "ipa": "/ˈwɑːlɪt/",
+      "meaning": "cái ví",
+      "example": "I left my wallet at home.",
+      "exampleVi": "Tôi để quên ví ở nhà.",
+      "note": "Ví nữ (cầm tay): purse."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "office",
+  "tag": "office",
+  "emoji": "💻",
+  "name": "Văn phòng & đồ công nghệ",
+  "en": "Office & tech gear",
+  "desc": "Đồ trên bàn làm việc của dân dev: sạc, cáp, màn hình, giấy nhớ, bảng trắng…",
+  "groups": [
+   {
+    "name": "Đồ công nghệ",
+    "emoji": "🔌",
+    "words": [
+     {
+      "text": "charger",
+      "pos": "noun",
+      "ipa": "/ˈtʃɑːrdʒər/",
+      "meaning": "bộ sạc",
+      "example": "Can I borrow your laptop charger?",
+      "exampleVi": "Cho mình mượn sạc laptop được không?",
+      "note": ""
+     },
+     {
+      "text": "cable",
+      "pos": "noun",
+      "ipa": "/ˈkeɪbl/",
+      "meaning": "dây cáp",
+      "example": "This HDMI cable is too short.",
+      "exampleVi": "Dây HDMI này ngắn quá.",
+      "note": ""
+     },
+     {
+      "text": "adapter",
+      "pos": "noun",
+      "ipa": "/əˈdæptər/",
+      "meaning": "bộ chuyển đổi; đầu chuyển",
+      "example": "I need a USB-C to HDMI adapter.",
+      "exampleVi": "Tôi cần một đầu chuyển USB-C sang HDMI.",
+      "note": ""
+     },
+     {
+      "text": "power bank",
+      "pos": "noun",
+      "ipa": "/ˈpaʊər bæŋk/",
+      "meaning": "sạc dự phòng",
+      "example": "My phone is dying, do you have a power bank?",
+      "exampleVi": "Điện thoại mình sắp hết pin, bạn có sạc dự phòng không?",
+      "note": "'my phone is dying' = điện thoại sắp hết pin."
+     },
+     {
+      "text": "power outlet",
+      "pos": "noun",
+      "ipa": "/ˈpaʊər ˈaʊtlet/",
+      "meaning": "ổ cắm điện",
+      "example": "Is there a power outlet near this desk?",
+      "exampleVi": "Gần bàn này có ổ cắm điện không?",
+      "note": "Anh-Anh: socket / plug socket."
+     },
+     {
+      "text": "headphones",
+      "pos": "noun",
+      "ipa": "/ˈhedfoʊnz/",
+      "meaning": "tai nghe (chụp tai)",
+      "example": "I wear headphones to focus while coding.",
+      "exampleVi": "Tôi đeo tai nghe để tập trung khi code.",
+      "note": "Tai nghe nhét tai: earbuds."
+     },
+     {
+      "text": "monitor",
+      "pos": "noun",
+      "ipa": "/ˈmɑːnɪtər/",
+      "meaning": "màn hình máy tính",
+      "example": "I work with two monitors.",
+      "exampleVi": "Tôi làm việc với hai màn hình.",
+      "note": "Cũng là động từ: theo dõi, giám sát (monitor the server)."
+     },
+     {
+      "text": "webcam",
+      "pos": "noun",
+      "ipa": "/ˈwebkæm/",
+      "meaning": "webcam",
+      "example": "Sorry, my webcam isn't working today.",
+      "exampleVi": "Xin lỗi, hôm nay webcam của tôi bị hỏng.",
+      "note": ""
+     },
+     {
+      "text": "laptop stand",
+      "pos": "noun",
+      "ipa": "/ˈlæptɑːp stænd/",
+      "meaning": "giá đỡ laptop",
+      "example": "A laptop stand is good for your neck.",
+      "exampleVi": "Giá đỡ laptop tốt cho cổ của bạn.",
+      "note": ""
+     },
+     {
+      "text": "flash drive",
+      "pos": "noun",
+      "ipa": "/ˈflæʃ draɪv/",
+      "meaning": "ổ USB",
+      "example": "Copy the files to a flash drive.",
+      "exampleVi": "Chép file vào USB đi.",
+      "note": "Cũng gọi: USB stick, thumb drive."
+     },
+     {
+      "text": "router",
+      "pos": "noun",
+      "ipa": "/ˈraʊtər/",
+      "meaning": "bộ phát wifi, router",
+      "example": "Try restarting the router.",
+      "exampleVi": "Thử khởi động lại router xem.",
+      "note": "Anh-Anh đọc /ˈruːtər/."
+     },
+     {
+      "text": "projector",
+      "pos": "noun",
+      "ipa": "/prəˈdʒektər/",
+      "meaning": "máy chiếu",
+      "example": "The projector in the meeting room isn't working.",
+      "exampleVi": "Máy chiếu ở phòng họp không chạy.",
+      "note": ""
+     },
+     {
+      "text": "printer",
+      "pos": "noun",
+      "ipa": "/ˈprɪntər/",
+      "meaning": "máy in",
+      "example": "The printer is jammed again.",
+      "exampleVi": "Máy in lại bị kẹt giấy.",
+      "note": "Kẹt giấy: paper jam; hết mực: out of ink."
+     }
+    ]
+   },
+   {
+    "name": "Văn phòng phẩm",
+    "emoji": "📎",
+    "words": [
+     {
+      "text": "sticky note",
+      "pos": "noun",
+      "ipa": "/ˈstɪki noʊt/",
+      "meaning": "giấy nhớ",
+      "example": "I wrote the password on a sticky note. Bad idea!",
+      "exampleVi": "Tôi ghi mật khẩu lên giấy nhớ. Ý tồi!",
+      "note": "Cũng gọi theo tên hãng: Post-it."
+     },
+     {
+      "text": "whiteboard",
+      "pos": "noun",
+      "ipa": "/ˈwaɪtbɔːrd/",
+      "meaning": "bảng trắng",
+      "example": "Let me draw the architecture on the whiteboard.",
+      "exampleVi": "Để tôi vẽ kiến trúc hệ thống lên bảng trắng.",
+      "note": "Họp phác thảo ý tưởng: a whiteboard session."
+     },
+     {
+      "text": "marker",
+      "pos": "noun",
+      "ipa": "/ˈmɑːrkər/",
+      "meaning": "bút dạ",
+      "example": "This marker has run out of ink.",
+      "exampleVi": "Cây bút dạ này hết mực rồi.",
+      "note": ""
+     },
+     {
+      "text": "highlighter",
+      "pos": "noun",
+      "ipa": "/ˈhaɪlaɪtər/",
+      "meaning": "bút dạ quang",
+      "example": "Use a highlighter to mark the key points.",
+      "exampleVi": "Dùng bút dạ quang đánh dấu ý chính.",
+      "note": ""
+     },
+     {
+      "text": "stapler",
+      "pos": "noun",
+      "ipa": "/ˈsteɪplər/",
+      "meaning": "cái dập ghim",
+      "example": "Can you staple these pages together?",
+      "exampleVi": "Bạn dập ghim mấy trang này lại được không?",
+      "note": "Động từ: staple; ghim: staples."
+     },
+     {
+      "text": "paper clip",
+      "pos": "noun",
+      "ipa": "/ˈpeɪpər klɪp/",
+      "meaning": "kẹp giấy",
+      "example": "Hold the receipts together with a paper clip.",
+      "exampleVi": "Kẹp mấy tờ hóa đơn lại bằng kẹp giấy.",
+      "note": ""
+     },
+     {
+      "text": "folder",
+      "pos": "noun",
+      "ipa": "/ˈfoʊldər/",
+      "meaning": "bìa hồ sơ; thư mục",
+      "example": "Save it in the shared folder.",
+      "exampleVi": "Lưu nó vào thư mục dùng chung.",
+      "note": ""
+     },
+     {
+      "text": "envelope",
+      "pos": "noun",
+      "ipa": "/ˈenvəloʊp/",
+      "meaning": "phong bì",
+      "example": "Put the contract in an envelope.",
+      "exampleVi": "Cho bản hợp đồng vào phong bì.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "name": "Nội thất văn phòng",
+    "emoji": "🪑",
+    "words": [
+     {
+      "text": "swivel chair",
+      "pos": "noun",
+      "ipa": "/ˈswɪvl tʃer/",
+      "meaning": "ghế xoay",
+      "example": "My swivel chair squeaks every time I move.",
+      "exampleVi": "Ghế xoay của tôi kêu cót két mỗi lần tôi cử động.",
+      "note": ""
+     },
+     {
+      "text": "desk lamp",
+      "pos": "noun",
+      "ipa": "/desk læmp/",
+      "meaning": "đèn bàn",
+      "example": "Turn on the desk lamp, it's getting dark.",
+      "exampleVi": "Bật đèn bàn lên, trời tối dần rồi.",
+      "note": ""
+     },
+     {
+      "text": "trash can",
+      "pos": "noun",
+      "ipa": "/ˈtræʃ kæn/",
+      "meaning": "thùng rác",
+      "example": "Throw it in the trash can.",
+      "exampleVi": "Ném nó vào thùng rác.",
+      "note": "Anh-Anh: bin / rubbish bin."
+     },
+     {
+      "text": "badge",
+      "pos": "noun",
+      "ipa": "/bædʒ/",
+      "meaning": "thẻ nhân viên",
+      "example": "Don't forget your badge, or you can't get in.",
+      "exampleVi": "Đừng quên thẻ nhân viên, không là không vào được.",
+      "note": "Cụm hay dùng: ID badge; dây đeo thẻ: lanyard /ˈlænjərd/."
+     },
+     {
+      "text": "filing cabinet",
+      "pos": "noun",
+      "ipa": "/ˈfaɪlɪŋ ˌkæbɪnət/",
+      "meaning": "tủ đựng hồ sơ",
+      "example": "The old contracts are in the filing cabinet.",
+      "exampleVi": "Hợp đồng cũ để trong tủ hồ sơ.",
+      "note": ""
+     }
+    ]
+   }
+  ]
+ }
+]
