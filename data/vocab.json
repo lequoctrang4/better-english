@@ -84,6 +84,28 @@
     "next_review": "2026-11-04"
   },
   {
+    "text": "ant",
+    "pos": "noun",
+    "ipa": "/ænt/",
+    "meaning": "con kiến",
+    "example": "There are ants all over the kitchen table.",
+    "example_vi": "Kiến bò khắp bàn bếp.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "insects"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "approach",
     "pos": "noun/verb",
     "ipa": "/əˈproʊtʃ/",
@@ -231,6 +253,78 @@
     "next_review": "2026-11-04"
   },
   {
+    "text": "bat",
+    "pos": "noun",
+    "ipa": "/bæt/",
+    "meaning": "con dơi",
+    "example": "Bats come out to hunt at night.",
+    "example_vi": "Dơi ra ngoài săn mồi vào ban đêm.",
+    "collocations": [],
+    "note": "Cũng có nghĩa: cây gậy bóng chày.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "bear",
+    "pos": "noun",
+    "ipa": "/ber/",
+    "meaning": "con gấu",
+    "example": "Bears sleep through most of the winter.",
+    "example_vi": "Gấu ngủ gần hết mùa đông.",
+    "collocations": [
+      "a polar bear",
+      "a bear market"
+    ],
+    "note": "'bear market' = thị trường giá xuống (ngược với bull market).",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "bee",
+    "pos": "noun",
+    "ipa": "/biː/",
+    "meaning": "con ong",
+    "example": "She's been as busy as a bee all week.",
+    "example_vi": "Cả tuần nay cô ấy bận tối mắt tối mũi.",
+    "collocations": [
+      "as busy as a bee",
+      "a bee sting"
+    ],
+    "note": "'busy as a bee' = rất bận rộn.",
+    "tags": [
+      "animals",
+      "insects"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "benefit",
     "pos": "noun/verb",
     "ipa": "/ˈbenɪfɪt/",
@@ -250,6 +344,30 @@
     "box": 3,
     "status": "known",
     "next_review": "2026-11-04"
+  },
+  {
+    "text": "butterfly",
+    "pos": "noun",
+    "ipa": "/ˈbʌtərflaɪ/",
+    "meaning": "con bướm",
+    "example": "I get butterflies before every presentation.",
+    "example_vi": "Tôi luôn hồi hộp trước mỗi buổi thuyết trình.",
+    "collocations": [
+      "have butterflies in your stomach"
+    ],
+    "note": "'have butterflies (in your stomach)' = hồi hộp, run.",
+    "tags": [
+      "animals",
+      "insects"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
   },
   {
     "text": "challenge",
@@ -292,6 +410,28 @@
     "box": 3,
     "status": "known",
     "next_review": "2026-11-04"
+  },
+  {
+    "text": "cockroach",
+    "pos": "noun",
+    "ipa": "/ˈkɑːkroʊtʃ/",
+    "meaning": "con gián",
+    "example": "I saw a cockroach in the bathroom last night.",
+    "example_vi": "Tối qua tôi thấy một con gián trong nhà tắm.",
+    "collocations": [],
+    "note": "Nói tắt (Mỹ): roach.",
+    "tags": [
+      "animals",
+      "insects"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
   },
   {
     "text": "comprehensive",
@@ -399,6 +539,74 @@
     "next_review": "2026-10-28"
   },
   {
+    "text": "crab",
+    "pos": "noun",
+    "ipa": "/kræb/",
+    "meaning": "con cua",
+    "example": "We had crab and shrimp for dinner.",
+    "example_vi": "Tối nay chúng tôi ăn cua và tôm.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "sea"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "crocodile",
+    "pos": "noun",
+    "ipa": "/ˈkrɑːkədaɪl/",
+    "meaning": "con cá sấu",
+    "example": "Don't swim in that river, there are crocodiles.",
+    "example_vi": "Đừng bơi ở con sông đó, có cá sấu.",
+    "collocations": [
+      "crocodile tears"
+    ],
+    "note": "'crocodile tears' = nước mắt cá sấu, khóc giả.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "deer",
+    "pos": "noun",
+    "ipa": "/dɪr/",
+    "meaning": "con hươu; con nai",
+    "example": "We saw a deer near the road last night.",
+    "example_vi": "Tối qua chúng tôi thấy một con nai gần đường.",
+    "collocations": [],
+    "note": "Số nhiều bất quy tắc: deer → deer.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "depend",
     "pos": "verb",
     "ipa": "/dɪˈpend/",
@@ -418,6 +626,98 @@
     "box": 3,
     "status": "known",
     "next_review": "2026-11-04"
+  },
+  {
+    "text": "dolphin",
+    "pos": "noun",
+    "ipa": "/ˈdɑːlfɪn/",
+    "meaning": "cá heo",
+    "example": "Dolphins are very smart and friendly.",
+    "example_vi": "Cá heo rất thông minh và thân thiện.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "sea"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "donkey",
+    "pos": "noun",
+    "ipa": "/ˈdɑːŋki/",
+    "meaning": "con lừa",
+    "example": "The donkey carried the bags up the mountain.",
+    "example_vi": "Con lừa chở đống túi lên núi.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "farm"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "duck",
+    "pos": "noun",
+    "ipa": "/dʌk/",
+    "meaning": "con vịt",
+    "example": "My kids love feeding the ducks in the park.",
+    "example_vi": "Bọn trẻ nhà tôi thích cho vịt ăn ở công viên.",
+    "collocations": [
+      "rubber duck debugging"
+    ],
+    "note": "Dân dev: 'rubber duck debugging' = giải thích code cho con vịt cao su để tự tìm ra bug.",
+    "tags": [
+      "animals",
+      "farm"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "eagle",
+    "pos": "noun",
+    "ipa": "/ˈiːɡl/",
+    "meaning": "chim đại bàng",
+    "example": "An eagle was flying high above the mountains.",
+    "example_vi": "Một con đại bàng bay cao trên dãy núi.",
+    "collocations": [
+      "eagle-eyed"
+    ],
+    "note": "'eagle-eyed' = tinh mắt, phát hiện chi tiết nhỏ (VD: an eagle-eyed reviewer).",
+    "tags": [
+      "animals",
+      "birds"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
   },
   {
     "text": "effort",
@@ -525,6 +825,144 @@
     "next_review": "2026-10-29"
   },
   {
+    "text": "fox",
+    "pos": "noun",
+    "ipa": "/fɑːks/",
+    "meaning": "con cáo",
+    "example": "The fox is known as a clever animal.",
+    "example_vi": "Cáo được biết đến là loài vật thông minh.",
+    "collocations": [
+      "as sly as a fox"
+    ],
+    "note": "",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "frog",
+    "pos": "noun",
+    "ipa": "/frɑːɡ/",
+    "meaning": "con ếch",
+    "example": "I can hear frogs after the rain.",
+    "example_vi": "Tôi nghe tiếng ếch kêu sau cơn mưa.",
+    "collocations": [
+      "have a frog in your throat"
+    ],
+    "note": "'have a frog in your throat' = bị khàn giọng.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "giraffe",
+    "pos": "noun",
+    "ipa": "/dʒəˈræf/",
+    "meaning": "hươu cao cổ",
+    "example": "A giraffe can eat leaves from tall trees.",
+    "example_vi": "Hươu cao cổ có thể ăn lá trên cây cao.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "goat",
+    "pos": "noun",
+    "ipa": "/ɡoʊt/",
+    "meaning": "con dê",
+    "example": "The goat is eating grass on the hill.",
+    "example_vi": "Con dê đang ăn cỏ trên đồi.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "farm"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "goose",
+    "pos": "noun",
+    "ipa": "/ɡuːs/",
+    "meaning": "con ngỗng",
+    "example": "A goose chased me across the field.",
+    "example_vi": "Một con ngỗng đuổi tôi chạy qua cánh đồng.",
+    "collocations": [
+      "a wild goose chase"
+    ],
+    "note": "Số nhiều bất quy tắc: goose → geese. 'a wild goose chase' = việc tìm kiếm vô ích.",
+    "tags": [
+      "animals",
+      "farm"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "hamster",
+    "pos": "noun",
+    "ipa": "/ˈhæmstər/",
+    "meaning": "chuột hamster",
+    "example": "My daughter wants a hamster for her birthday.",
+    "example_vi": "Con gái tôi muốn một con hamster vào sinh nhật.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "pets"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "handle",
     "pos": "verb",
     "ipa": "/ˈhændl/",
@@ -544,6 +982,30 @@
     "box": 3,
     "status": "known",
     "next_review": "2026-11-04"
+  },
+  {
+    "text": "hen",
+    "pos": "noun",
+    "ipa": "/hen/",
+    "meaning": "gà mái",
+    "example": "Our hens lay about six eggs a day.",
+    "example_vi": "Mấy con gà mái nhà tôi đẻ khoảng sáu trứng mỗi ngày.",
+    "collocations": [
+      "lay eggs"
+    ],
+    "note": "Liên quan: rooster (gà trống), chick (gà con).",
+    "tags": [
+      "animals",
+      "farm"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
   },
   {
     "text": "identify",
@@ -714,6 +1176,52 @@
     "next_review": "2026-11-04"
   },
   {
+    "text": "jellyfish",
+    "pos": "noun",
+    "ipa": "/ˈdʒelifɪʃ/",
+    "meaning": "con sứa",
+    "example": "I got stung by a jellyfish at the beach.",
+    "example_vi": "Tôi bị sứa đốt ở bãi biển.",
+    "collocations": [
+      "get stung by a jellyfish"
+    ],
+    "note": "Số nhiều thường giữ nguyên: jellyfish.",
+    "tags": [
+      "animals",
+      "sea"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "kitten",
+    "pos": "noun",
+    "ipa": "/ˈkɪtn/",
+    "meaning": "mèo con",
+    "example": "The kitten is sleeping on my keyboard again.",
+    "example_vi": "Con mèo con lại ngủ trên bàn phím của tôi.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "pets"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "likely",
     "pos": "adj/adv",
     "ipa": "/ˈlaɪkli/",
@@ -735,6 +1243,52 @@
     "next_review": "2026-10-29"
   },
   {
+    "text": "lizard",
+    "pos": "noun",
+    "ipa": "/ˈlɪzərd/",
+    "meaning": "con thằn lằn",
+    "example": "A small lizard is climbing up the wall.",
+    "example_vi": "Một con thằn lằn nhỏ đang bò lên tường.",
+    "collocations": [],
+    "note": "Thạch sùng trong nhà: gecko /ˈɡekoʊ/.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "mosquito",
+    "pos": "noun",
+    "ipa": "/məˈskiːtoʊ/",
+    "meaning": "con muỗi",
+    "example": "I couldn't sleep because of the mosquitoes.",
+    "example_vi": "Tôi không ngủ được vì muỗi.",
+    "collocations": [
+      "a mosquito bite"
+    ],
+    "note": "Số nhiều: mosquitoes.",
+    "tags": [
+      "animals",
+      "insects"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "negotiate",
     "pos": "verb",
     "ipa": "/nɪˈɡoʊʃieɪt/",
@@ -754,6 +1308,28 @@
     "box": 0,
     "status": "unrated",
     "next_review": "2026-10-28"
+  },
+  {
+    "text": "octopus",
+    "pos": "noun",
+    "ipa": "/ˈɑːktəpəs/",
+    "meaning": "con bạch tuộc",
+    "example": "An octopus has eight arms.",
+    "example_vi": "Bạch tuộc có tám xúc tu.",
+    "collocations": [],
+    "note": "Số nhiều: octopuses (phổ biến) hoặc octopi.",
+    "tags": [
+      "animals",
+      "sea"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
   },
   {
     "text": "opportunity",
@@ -819,6 +1395,52 @@
     "next_review": "2026-10-28"
   },
   {
+    "text": "owl",
+    "pos": "noun",
+    "ipa": "/aʊl/",
+    "meaning": "con cú",
+    "example": "I'm a night owl, I code best after midnight.",
+    "example_vi": "Tôi là cú đêm, tôi code tốt nhất sau nửa đêm.",
+    "collocations": [
+      "a night owl"
+    ],
+    "note": "'night owl' = người hay thức khuya; ngược lại: early bird.",
+    "tags": [
+      "animals",
+      "birds"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "parrot",
+    "pos": "noun",
+    "ipa": "/ˈpærət/",
+    "meaning": "con vẹt",
+    "example": "Our parrot can say 'hello' and 'goodbye'.",
+    "example_vi": "Con vẹt nhà tôi biết nói 'hello' và 'goodbye'.",
+    "collocations": [],
+    "note": "Cũng là động từ: nhại lại như vẹt (parrot someone's words).",
+    "tags": [
+      "animals",
+      "birds"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "perceive",
     "pos": "verb",
     "ipa": "/pərˈsiːv/",
@@ -838,6 +1460,28 @@
     "box": 0,
     "status": "unrated",
     "next_review": "2026-10-28"
+  },
+  {
+    "text": "pigeon",
+    "pos": "noun",
+    "ipa": "/ˈpɪdʒɪn/",
+    "meaning": "chim bồ câu",
+    "example": "Pigeons are everywhere in the city square.",
+    "example_vi": "Chim bồ câu ở khắp quảng trường thành phố.",
+    "collocations": [],
+    "note": "Bồ câu trắng (biểu tượng hòa bình): dove /dʌv/.",
+    "tags": [
+      "animals",
+      "birds"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
   },
   {
     "text": "prevent",
@@ -903,6 +1547,30 @@
     "next_review": "2026-11-04"
   },
   {
+    "text": "puppy",
+    "pos": "noun",
+    "ipa": "/ˈpʌpi/",
+    "meaning": "chó con",
+    "example": "We just adopted a puppy from the shelter.",
+    "example_vi": "Chúng tôi vừa nhận nuôi một chú chó con từ trại cứu hộ.",
+    "collocations": [
+      "adopt a puppy"
+    ],
+    "note": "",
+    "tags": [
+      "animals",
+      "pets"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "require",
     "pos": "verb",
     "ipa": "/rɪˈkwaɪər/",
@@ -966,6 +1634,121 @@
     "next_review": "2026-11-04"
   },
   {
+    "text": "rhinoceros",
+    "pos": "noun",
+    "ipa": "/raɪˈnɑːsərəs/",
+    "meaning": "con tê giác",
+    "example": "The rhinoceros is in danger because of hunting.",
+    "example_vi": "Tê giác đang bị đe dọa vì nạn săn bắt.",
+    "collocations": [],
+    "note": "Thường nói tắt: rhino /ˈraɪnoʊ/.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "rooster",
+    "pos": "noun",
+    "ipa": "/ˈruːstər/",
+    "meaning": "gà trống",
+    "example": "The rooster crows every morning at five.",
+    "example_vi": "Con gà trống gáy lúc năm giờ mỗi sáng.",
+    "collocations": [],
+    "note": "Gà mái: hen; gà con: chick; gà (chung/thịt gà): chicken.",
+    "tags": [
+      "animals",
+      "farm"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "shark",
+    "pos": "noun",
+    "ipa": "/ʃɑːrk/",
+    "meaning": "cá mập",
+    "example": "Sharks have been around for millions of years.",
+    "example_vi": "Cá mập đã tồn tại hàng triệu năm.",
+    "collocations": [
+      "loan shark"
+    ],
+    "note": "'loan shark' = kẻ cho vay nặng lãi.",
+    "tags": [
+      "animals",
+      "sea"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "sheep",
+    "pos": "noun",
+    "ipa": "/ʃiːp/",
+    "meaning": "con cừu",
+    "example": "There are hundreds of sheep on the farm.",
+    "example_vi": "Có hàng trăm con cừu ở trang trại.",
+    "collocations": [
+      "a flock of sheep",
+      "count sheep"
+    ],
+    "note": "Số nhiều bất quy tắc: sheep → sheep (không thêm s).",
+    "tags": [
+      "animals",
+      "farm"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "shrimp",
+    "pos": "noun",
+    "ipa": "/ʃrɪmp/",
+    "meaning": "con tôm",
+    "example": "This shrimp soup is really spicy.",
+    "example_vi": "Món canh tôm này cay thật.",
+    "collocations": [],
+    "note": "Tôm to (tôm sú/tôm hùm đất) hay gọi là prawn /prɔːn/; tôm hùm: lobster.",
+    "tags": [
+      "animals",
+      "sea"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
     "text": "significant",
     "pos": "adj",
     "ipa": "/sɪɡˈnɪfɪkənt/",
@@ -985,6 +1768,120 @@
     "box": 1,
     "status": "learning",
     "next_review": "2026-10-29"
+  },
+  {
+    "text": "snail",
+    "pos": "noun",
+    "ipa": "/sneɪl/",
+    "meaning": "con ốc sên",
+    "example": "The internet is moving at a snail's pace today.",
+    "example_vi": "Hôm nay mạng chậm như rùa bò.",
+    "collocations": [
+      "at a snail's pace"
+    ],
+    "note": "'at a snail's pace' = cực kỳ chậm (tiếng Việt hay nói 'chậm như rùa').",
+    "tags": [
+      "animals",
+      "insects"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "snake",
+    "pos": "noun",
+    "ipa": "/sneɪk/",
+    "meaning": "con rắn",
+    "example": "Be careful, there might be snakes in the grass.",
+    "example_vi": "Cẩn thận, có thể có rắn trong cỏ.",
+    "collocations": [],
+    "note": "Ngôn ngữ Python được đặt theo nhóm hài Monty Python, nhưng logo là con trăn (python).",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "sparrow",
+    "pos": "noun",
+    "ipa": "/ˈspæroʊ/",
+    "meaning": "chim sẻ",
+    "example": "A sparrow landed on my window this morning.",
+    "example_vi": "Sáng nay một con chim sẻ đậu trên cửa sổ nhà tôi.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "birds"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "spider",
+    "pos": "noun",
+    "ipa": "/ˈspaɪdər/",
+    "meaning": "con nhện",
+    "example": "There's a big spider in the corner of the room.",
+    "example_vi": "Có một con nhện to ở góc phòng.",
+    "collocations": [
+      "a spider web"
+    ],
+    "note": "Nhện không phải côn trùng nhưng hay xếp chung. Mạng nhện: spider web / cobweb.",
+    "tags": [
+      "animals",
+      "insects"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "squirrel",
+    "pos": "noun",
+    "ipa": "/ˈskwɜːrəl/",
+    "meaning": "con sóc",
+    "example": "A squirrel ran up the tree with a nut.",
+    "example_vi": "Một con sóc chạy lên cây với hạt dẻ.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
   },
   {
     "text": "struggle",
@@ -1048,5 +1945,98 @@
     "box": 0,
     "status": "learning",
     "next_review": "2026-10-29"
+  },
+  {
+    "text": "turtle",
+    "pos": "noun",
+    "ipa": "/ˈtɜːrtl/",
+    "meaning": "con rùa",
+    "example": "Sea turtles can live for over 50 years.",
+    "example_vi": "Rùa biển có thể sống hơn 50 năm.",
+    "collocations": [],
+    "note": "Rùa cạn thường gọi là tortoise /ˈtɔːrtəs/.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "whale",
+    "pos": "noun",
+    "ipa": "/weɪl/",
+    "meaning": "cá voi",
+    "example": "The blue whale is the largest animal on Earth.",
+    "example_vi": "Cá voi xanh là loài vật lớn nhất trên Trái Đất.",
+    "collocations": [],
+    "note": "",
+    "tags": [
+      "animals",
+      "sea"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "wolf",
+    "pos": "noun",
+    "ipa": "/wʊlf/",
+    "meaning": "chó sói",
+    "example": "Wolves usually hunt in packs.",
+    "example_vi": "Chó sói thường săn mồi theo bầy.",
+    "collocations": [
+      "a pack of wolves",
+      "a lone wolf"
+    ],
+    "note": "Số nhiều: wolf → wolves. 'a lone wolf' = người thích làm việc một mình.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
+  },
+  {
+    "text": "zebra",
+    "pos": "noun",
+    "ipa": "/ˈziːbrə/",
+    "meaning": "ngựa vằn",
+    "example": "Every zebra has a unique pattern of stripes.",
+    "example_vi": "Mỗi con ngựa vằn có hoa văn sọc riêng.",
+    "collocations": [
+      "zebra crossing"
+    ],
+    "note": "'zebra crossing' (Anh-Anh) = vạch qua đường cho người đi bộ.",
+    "tags": [
+      "animals",
+      "wild"
+    ],
+    "source": "learn 2026-11-06",
+    "added": "2026-11-06",
+    "last_review": null,
+    "reviews": 0,
+    "lapses": 0,
+    "box": 0,
+    "status": "unrated",
+    "next_review": "2026-11-06"
   }
 ]
